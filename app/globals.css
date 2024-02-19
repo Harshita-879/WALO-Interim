@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css or styles.css */
+/* globals.css */
+@font-face {
+  font-family: 'M PLUS Rounded 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/mplusrounded1c/v5/VdGQAZxHxhKDpzaaCr8fKOsA.ttf') format('truetype');
+}
+
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
