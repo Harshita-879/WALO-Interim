@@ -38,7 +38,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`h-16 bg-white fixed shadow-lg top-0 z-10 w-full font-mplus flex items-center justify-between`}>
+    <nav className={`h-16 bg-white fixed top-0 z-10 w-full font-mplus flex items-center justify-between ${isScrolled ? 'shadow-lg' : ''}`} style={{ borderBottom: '1px solid #D1D5DB' }}>
       <div className="container mx-auto ">
         <div className="flex items-center justify-between">
           <div className='flex'>
@@ -102,7 +102,7 @@ const Navbar = () => {
 
             <div className="relative group">
               <div className="cursor-pointer  p-2 rounded">
-                <button type="button" className="h-46 w-100 font-mplus bg-[#5AD192] py-2 px-8 rounded text-white ">
+                <button type="button" className=" w-auto font-mplus border border-[#5AD192] px-4 rounded-full text-[#5F6APE] ">
                   Log In
                 </button>
               </div>

@@ -78,8 +78,8 @@ const Hero = () => {
         <span className='font-mplus font-bold text-4xl flex mb-2 '>
           Invest with
           <span>
-            <Box>
-              <Ul className="font-mplus font-extrabold text-transparent text-2xl lg:text-4xl bg-clip-text" style={{ backgroundImage: 'linear-gradient(to right, #5F6D9E, #5AD192)' }}>
+            <Box className='pt-1 lg:pt-0'>
+              <Ul className="font-mplus font-extrabold text-transparent text-3xl  lg:text-4xl bg-clip-text" style={{ backgroundImage: 'linear-gradient(to right, #5F6D9E, #5AD192)' }}>
                 <Li>Confidence</Li>
                 <Li>WALO</Li>
               </Ul>
