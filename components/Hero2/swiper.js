@@ -78,8 +78,8 @@ export default function Cards() {
                     src={Graph}
                     alt="Graph"
                     className="mx-auto"
-                    height={180}
-                    width={170}
+                    height={208}
+                    width={192}
                   />
                 </div>
                 <div className="py-4">
@@ -102,7 +102,7 @@ export default function Cards() {
               <TiltInterval>
                 {({ isTilted }) => (
                   <div className="w-[85%] h-[200px] md:h-[300px] rounded-xl bg-white bg-opacity-20 flex flex-col ">
-                    <div className="bg-white w-[78%] h-[115px] md:w-[80%] md:h-[120px] shadow-lg rounded-xl mx-auto mt-6 mb-5 relative z-10 flex justify-center items-center">
+                    <div className="bg-white w-[80%] h-[120px] shadow-lg rounded-xl mx-auto mt-6 mb-5 relative z-10 flex justify-center items-center">
                       <Image
                         src={handShake}
                         alt="Hand shake"
@@ -129,13 +129,13 @@ export default function Cards() {
           <SwiperSlide className="mb-20 ">
             <div className="relative">
               <div className="w-[85%] h-[200px] md:h-[300px] rounded-xl bg-white bg-opacity-20 flex flex-col ">
-                <div className="bg-white  w-[80%] h-[120px] shadow-lg rounded-xl mx-auto mt-6 mb-5 relative z-10 flex justify-center items-center">
+                <div className="bg-white w-[80%] h-[120px] shadow-lg rounded-xl mx-auto mt-6 mb-5 relative z-10 flex justify-center items-center">
                   <Image
                     src={Heart}
                     alt="Heart"
                     height={80}
                     width={80}
-                    className={`md:h-[70%] md:w-[60%] h-[70%] w-[70%]`}
+                    className={`md:h-[70%] md:w-[50%] h-[70%] w-[70%]`}
                   />
                 </div>
 
@@ -161,7 +161,7 @@ export default function Cards() {
                     alt=""
                     height={70}
                     width={70}
-                    className={`  md:h-[70%] md:w-[70%] h-[70%] w-[70%]`}
+                    className={`  md:h-[80%] md:w-[65%] h-[70%] w-[70%]`}
                   />
                 </div>
                 <div>
