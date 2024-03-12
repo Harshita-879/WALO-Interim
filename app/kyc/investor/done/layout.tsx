@@ -1,7 +1,5 @@
 "use client";
 import Navbar from "@/components/Navbar/Navbar";
-import LoginFooter from "@/components/LoginFooter/loginfooter";
-import Footer from "@/components/Footer/Footer";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -12,7 +10,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <Navbar /> {/* Include the Navbar component here */}
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   );
