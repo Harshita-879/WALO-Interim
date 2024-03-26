@@ -8,7 +8,7 @@ import line from './lineCompany.svg';
 import upload from './uploadGrp.svg';
 
 export default function Aadhar() {
-    
+
     return (
         <div className="bg-[#ffffff] h-screen flex flex-col items-center justify-center">
             <div className='flex flex-col items-center justify-center'>
