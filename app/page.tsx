@@ -2,12 +2,8 @@
 import React from "react";
 import { useState } from 'react'
 import Hero from "@/components/Hero/Hero";
-import VideoSec from "@/components/Videosec/Videosec";
 import Hero2 from "@/components/Hero2/swiper.js";
-import FAQ from "@/components/FAQ/Faqlayout"
-import data from "../public/data.json";
 import Footer from "@/components/Footer/Footer";
-import GetTouch from "@/components/GetinTouch/Getintouch";
 
 export default function Home() {
 
@@ -23,15 +19,6 @@ export default function Home() {
     <main className=" font-mplus">
       <Hero />
       <Hero2 />
-      <VideoSec />
-      <FAQ
-        handleClick={handleClick}
-        isSomeActive={isSomeActive}
-        data={data}
-        turn={active}
-        setTurn={setActive}
-      />
-      <GetTouch/>
       <Footer/>
     </main>
   );

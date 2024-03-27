@@ -81,42 +81,6 @@ const Navbar = () => {
           <div className="hidden lg:flex items-center space-x-12">
             <Link className='font-mplus' href="/">Get Funded</Link>
             <Link className='font-mplus' href="/about">Contact Us</Link>
-            <div className="relative group">
-              <div className="cursor-pointer p-2 rounded">
-                <button type="button" className="focus:outline-none font-mplus">
-                  Resources
-                </button>
-              </div>
-              <div className="hidden group-hover:block absolute mt-2 ht-92 w-24 bg-[#5F6A9E] border rounded-r-lg shadow-md">
-                <ul className="p-4">
-                  <li>
-                    <Link className='font-mplus text-white text-xs' href="/resources">FAQ's</Link>
-                  </li>
-                  <li>
-                    <Link className='font-mplus text-white text-xs' href="/resources">Blogs</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-
-            <div className="relative group">
-              <div className="cursor-pointer  p-2 rounded">
-                <button type="button" className=" w-auto font-mplus border border-[#5AD192] px-4 rounded-full text-[#5F6APE] ">
-                  Log In
-                </button>
-              </div>
-              <div className="hidden group-hover:block absolute mt-2 w-28 bg-[#5F6A9E] border rounded-r-lg shadow-md">
-                <ul className="p-2 ">
-                  <li>
-                    <Link className=' font-mplus text-white text-xs' href="/resources">As an Invester</Link>
-                  </li>
-                  <li>
-                    <Link className='font-mplus text-white text-xs' href="/resources">As a Business</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>

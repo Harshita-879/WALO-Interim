@@ -6,7 +6,6 @@ import playImg from '@/public/LandingPage/play.svg';
 
 import styled, { keyframes } from 'styled-components';
 import Link from 'next/link';
-import VideoSec from '../Videosec/Videosec';
 
 const scrollCircular = keyframes`
   0% {
@@ -71,9 +70,6 @@ const Hero = () => {
 
   return (
     <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-evenly my-20'>
-      {/* <div className=" lg:m-0">
-        <Image className='mt-16 mb-16' src={heroImg} alt="Hero-sec" width={400} height={400} />
-      </div> */}
       <div className='m-6 lg:m-0 lg:w-2/5 xl:w-1/3 lg:order-2 '>
         <span className='font-mplus font-bold text-4xl flex mb-2 '>
           Invest with
@@ -104,12 +100,6 @@ const Hero = () => {
           <button type="button" className="h-10 w-full lg:w-32  font-mplus bg-[#5AD192] py-2 px-4  rounded-lg lg:rounded-full text-white ">
             Get Started
           </button>
-           {! isMobile && ( // Check if the screen width is greater than 768px
-          <>
-          <Image src={playImg} alt="Hero-sec" width={36} height={36} className='ml-4 lg:ml-6' />
-          <Link href='#video' className='ml-2 lg:ml-3 font-mplus text-xs'>How Walo works</Link>
-          </>
-          )}
         </div>
       </div>
       <div className=" lg:m-0  lg:order-1">
