@@ -8,7 +8,7 @@ import linkIcon from "@/public/mobileNav/SocialMedia/linkedIn2.svg"
 import WaloIcon from "@/public/LandingPage/icon.svg"
 const Footer = () => {
   return (
-    <div className="w-1440 h-276 pt-[21px] pb-[25px] bg-[#D8D0EE]">
+    <div className="w-1440 h-276 pt-[21px] pb-[25px] bg-[#D8D0EE] py-4">
       <div>
         <div className="flex justify-between ">
           <div className="flex pl-[5%] ">
@@ -27,66 +27,6 @@ const Footer = () => {
             />
         </div>
           <p className="text-2xl leading-9 mr-16 hidden md:block">Lorep ipsum dolor sit amet, consecturet</p>
-        </div>
-      <hr className="border-t-2 border-[#6251A3] my-3.5 mx-14 hidden md:block " />
-      </div>
-    <div className="flex flex-wrap justify-between px-16 sm:px-28">  
-       <div className="flex flex-col mb-4">
-        <Link href="/">GET FUNDED </Link>
-        <Link href="/">LOGIN</Link>
-        <Link href="/">CAREERS</Link>
-        <Link href="/">COMMUNITY PAGE</Link>
-       </div>
-       <div className="flex flex-col mb-4">
-        <Link href="/">RESOURCES</Link>
-        <Link href="/">FAQs</Link>
-        <Link href="/">BLOG</Link>
-       </div>
-       <div className="flex flex-col mb-4">
-        <Link href="/">ABOUT US</Link>
-        <Link href="/">MEET OUR TEAM</Link>
-        <Link href="/">PRIVACY POLICY</Link>
-        
-       </div>
-       <div className="flex flex-col mb-4">
-        <Link href="/">CONTACT US</Link>
-        <Link href="/">EMAIL</Link>
-        <Link href="/">CONTACT NO.</Link>
-       </div>
-        <div className="flex flex-col mb-4">
-          <p className="h-22 mb-[16px] ">FOLLOW US!</p>
-          <div className="flex ">
-            <Image
-              className="mr-3.5"
-              src={instaIcon}
-              height={30}
-              width={30}
-              alt="Insta"
-            />
-            <Image
-              className="ml-3.5"
-              src={fbIcon}
-              height={30}
-              width={30}
-              alt="Insta"
-              />
-          </div>
-          <div className="flex">
-            <Image 
-              className="mt-2 mr-3.5"
-              src={twIcon}
-              height={30}
-              width={30}
-              alt="Insta"
-            />
-            <Image
-              className="mt-2 ml-3.5"
-              src={linkIcon}
-              height={30}
-              width={30}
-              alt="Insta"
-            />
-          </div>
         </div>
       </div>
     </div>

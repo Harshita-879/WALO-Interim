@@ -10,7 +10,11 @@ const config: Config = {
     extend: {
       fontFamily: {
         mplus: ["var(--mplus)"]
-      }
+      },
+      colors: {
+        'custom-purple': '#6251A3',
+        'custom-green': '#5AD192'
+      },
     },
   },
   plugins: [],

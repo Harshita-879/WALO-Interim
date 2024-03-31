@@ -4,6 +4,8 @@ import { useState } from 'react'
 import Hero from "@/components/Hero/Hero";
 import Hero2 from "@/components/Hero2/swiper.js";
 import Footer from "@/components/Footer/Footer";
+import GetStarted from "@/components/GetStarted/GetStarted";
+import Hero4 from "@/components/Hero4/Hero4";
 
 export default function Home() {
 
@@ -19,6 +21,8 @@ export default function Home() {
     <main className=" font-mplus">
       <Hero />
       <Hero2 />
+      <GetStarted />
+      <Hero4 />
       <Footer/>
     </main>
   );

@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image';
 import { useState,useEffect } from 'react';
-import heroImg from '@/public/LandingPage/hero.svg';
+import heroImg from '@/public/LandingPage/hero.gif';
 import playImg from '@/public/LandingPage/play.svg';
 
 import styled, { keyframes } from 'styled-components';
@@ -69,7 +69,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-evenly my-20'>
+    <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-evenly my-5'>
       <div className='m-6 lg:m-0 lg:w-2/5 xl:w-1/3 lg:order-2 '>
         <span className='font-mplus font-bold text-4xl flex mb-2 '>
           Invest with
