@@ -45,40 +45,9 @@ const Navbar = () => {
             <Image className='mx-4' src={waloIcon} alt="Walo" width={30} height={30} />
             <Image className='' src={waloLogo} alt="Walo" width={144} height={45} />
           </div>
-          {/* Mobile Menu Icon */}
-          <div className="lg:hidden flex items-center ">
-            <div className="relative group mr-2">
-              <div className="cursor-pointer rounded">
-                <button type="button" className=" w-auto font-mplus border border-[#5AD192] px-4 rounded-full text-[#5F6APE] ">
-                  Log In
-                </button>
-              </div>
-              <div className="hidden group-hover:block absolute mt-2 w-[130%] bg-[#5F6A9E] border rounded-r-lg shadow-md">
-                <ul className="p-2 ">
-                  <li>
-                    <Link className=' font-mplus text-white text-xs' href="/resources">As an Invester</Link>
-                  </li>
-                  <li>
-                    <Link className='font-mplus text-white text-xs' href="/resources">As a Business</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {isMenuOpen ? (
-              <button onClick={toggleMenu}>
-                <Image src={Cross} alt="Close" />
-              </button>
-            ) : (
-              <button onClick={toggleMenu}>
-                <Image src={Bars} alt="Menu" />
-              </button>
-            )}
-
-          </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center space-x-20 mr-20">
+          <div className="hidden lg:flex items-center space-x-20">
             <Link className='font-mplus' href="/">Get Funded</Link>
             <Link className='font-mplus' href="/about">Contact Us</Link>
           </div>
