@@ -26,7 +26,7 @@ const Footer = () => {
           width={158}
             />
         </div>
-          <p className="text-2xl leading-9 mr-16 hidden md:block">Lorep ipsum dolor sit amet, consecturet</p>
+          <p className="text-2xl font-bold leading-9 mr-16 hidden md:block" style={{ color: '#6251A3' }}>CAPITAL THAT SCALES WITH YOU</p>
         </div>
       </div>
     </div>

@@ -72,27 +72,22 @@ const Hero = () => {
     <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-evenly my-5'>
       <div className='m-6 lg:m-0 lg:w-2/5 xl:w-1/3 lg:order-2 '>
         <span className='font-mplus font-bold text-4xl flex mb-2 '>
-          Invest with
+          Scale your
           <span>
             <Box className='pt-1 lg:pt-0'>
               <Ul className="font-mplus font-extrabold text-transparent text-3xl  lg:text-4xl bg-clip-text" style={{ backgroundImage: 'linear-gradient(to right, #5F6D9E, #5AD192)' }}>
-                <Li>Confidence</Li>
-                <Li>WALO</Li>
+                <Li>Business</Li>
+                <Li>Working Capital</Li>
               </Ul>
             </Box>
           </span>
-          <br />
         </span>
-        <span className='font-bold text-xl lg:text-4xl mb-3'>
-          Your Gateway to Success
-        </span>
-        <br />
-        <div className='h-auto mt-3'>
-           <p className='font-mplus font-semibold lg:font-normal mb-6 text-base lg:text-lg'>
+        <div className='h-auto mt-3 '>
+           <p className='font-mplus font-bold lg:font-normal mb-6 text-base lg:text-lg'>
       {isMobile ? (
         "WALO redefines the landscape, empowering you to invest directly in high-growth companies shaping the future."
       ) : (
-        "Tired of traditional investments that stagnate or plummet? WALO redefines the landscape, empowering you to invest directly in high-growth companies shaping the future. Forget faceless corporations and distant portfolios. Here, you become a partner, not just a shareholder."
+        "Get rid of traditional financing options and bridge the gap and boost your business with WALO. WALO connects ambitious founders of high-potential startups with investors to grow working capital, without sharing any ownership or taking debts."
       )}
     </p>
         </div>

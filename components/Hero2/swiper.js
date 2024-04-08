@@ -40,10 +40,10 @@ export default function Cards() {
 
   return (
     <div className="ht-600 bg-[#6251A3] text-sm ">
-      <p className="font-mplus text-white text-center font-semibold  text-xl py-4">
+      <p className="font-mplus text-white text-center font-semibold  text-3xl py-8">
         Why Choose WALO
       </p>
-      <div className=" mx-auto w-[90%] h-[85%] items-center justify-items-center mt-10  text-center ml-8 md:ml-auto">
+      <div className=" mx-auto w-[90%] h-[85%] items-center justify-items-center mt-4  text-center ml-8 md:ml-auto">
         <Swiper
           slidesPerView={slidesPerView}
           spaceBetween={1}
