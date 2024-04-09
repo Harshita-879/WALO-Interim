@@ -1,20 +1,20 @@
 import Image from "next/image";
-import waloLogo from "@/public/LandingPage/walo.svg"
-import WaloIcon from "@/public/LandingPage/icon.svg"
+import waloLogo from '@/assets/waloname.svg';
+import WaloIcon from '@/assets/walologo.svg';
 const Footer = () => {
   return (
-    <div className="w-1440 h-276 sm:pt-[21px] sm:pb-[25px] lg:bg-gradient-to-r from-[#D8D0EE] to-[#a796d4] lg:py-4">
+    <div className="w-1440 bg-gradient-to-r from-[#D8D0EE] to-[#a796d4] sm:py-4">
       <div>
         <div className="flex justify-between items-center">
           <div className="flex pl-[5%]">
             
-        <Image className="mr-[10%] md:block sm:max-w-10 max-w-6"
+        <Image className="mr-[10%] md:block sm:max-w-8 max-w-6"
             src={WaloIcon}
           alt="footerIcon"
           // height={42}
           // width={40}
         />
-        <Image className="sm:max-w-44 max-w-28"
+        <Image className="sm:max-w-36 max-w-28"
           src={waloLogo}
           alt="footerIcon"
           // height={56}

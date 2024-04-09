@@ -83,7 +83,7 @@ const Hero = () => {
           </span>
         </span>
         <div className='h-auto mt-3 flex flex-col items-center justify-center'>
-           <p className='font-mplus font-bold lg:font-normal mb-6 text-sm md:text-lg'>
+           <p className='font-mplus font-bold lg:font-bold mb-6 text-sm md:text-lg'>
       {isMobile ? (
         "WALO redefines the landscape, empowering you to invest directly in high-growth companies shaping the future."
       ) : (

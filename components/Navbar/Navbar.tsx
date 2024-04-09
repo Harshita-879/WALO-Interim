@@ -31,8 +31,8 @@ const Navbar = () => {
 
   return (
     <nav className={`h-16 bg-white fixed top-0 z-10 w-full font-mplus flex items-center justify-between ${isScrolled ? 'shadow-lg' : ''}`} style={{ borderBottom: '1px solid #D1D5DB' }}>
-      <div className="container mx-auto mr-[8%]">
-        <div className="flex flex-row items-center justify-between">
+      <div className="container mx-auto mr-[5%]">
+        <div className="flex flex-row items-center justify-between ml-10 font-extrabold text-xl">
         <div className='sm:flex sm:flex-row'>
           <div className='flex'>
             <Image className='mx-4' src={waloIcon} alt="Walo" width={30} height={30} />
@@ -58,9 +58,9 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center space-x-20">
+          <div className="hidden lg:flex items-center space-x-20 pl-20 ">
             <Link className='font-mplus' href="/">Get Funded</Link>
-            <Link className='font-mplus' href="/about">Contact Us</Link>
+            <Link className='font-mplus ' href="/about">Contact Us</Link>
           </div>
         </div>
         </div>

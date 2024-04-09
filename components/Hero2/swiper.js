@@ -14,6 +14,7 @@ import flexible from "@/assets/flexible.svg";
 import founderfriendly from "@/assets/founderfriendly.svg";
 import fair from "@/assets/fair.svg";
 import frequent from "@/assets/frequent.svg";
+import whychoosewalo from "@/assets/whychoosewalo.svg";
 
 // import required modules
 import { Pagination, Autoplay } from "swiper/modules";
@@ -39,11 +40,18 @@ export default function Cards() {
   }, []);
 
   return (
-    <div className="ht-600 lg:bg-[#6251A3] text-sm mb-8">
-      <p className="font-mplus text-[#6251A3] lg:text-white text-center font-semibold  text-3xl py-8">
-        Why Choose WALO?
+    <div className="ht-600 lg:bg-[#6251A3] flex flex-col justify-center items-center text-sm mb-8">
+      <p className="lg:hidden font-mplus text-[#6251A3] lg:text-white text-center font-semibold  text-3xl py-8">
+        Why Choose WALO
       </p>
-      <div className="mx-auto w-[90%] h-[85%] items-center justify-center mt-4  text-center md:ml-auto  rounded-lg">
+      <Image src={whychoosewalo} alt="whychoosewalo" className="hidden lg:inline"/>
+      <div className="lg:hidden mx-auto w-[90%] h-[85%] items-center justify-center mt-4  text-center md:ml-auto  rounded-lg" style={{
+      boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.1)',
+      '@media (min-width: 769px)': {
+        boxShadow: 'none',
+      },
+    }}>
+
         <Swiper
           slidesPerView={slidesPerView}
           spaceBetween={16}
