@@ -26,7 +26,7 @@ export default function Cards() {
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth <= 768) {
-        setSlidesPerView(2);
+        setSlidesPerView(1);
       } else {
         setSlidesPerView(4);
       }
@@ -39,11 +39,11 @@ export default function Cards() {
   }, []);
 
   return (
-    <div className="ht-600 bg-[#6251A3] text-sm ">
-      <p className="font-mplus text-white text-center font-semibold  text-3xl py-8">
+    <div className="ht-600 lg:bg-[#6251A3] text-sm ">
+      <p className="font-mplus text-[#6251A3] lg:text-white text-center font-semibold  text-3xl py-8">
         Why Choose WALO
       </p>
-      <div className=" mx-auto w-[90%] h-[85%] items-center justify-items-center mt-4  text-center ml-8 md:ml-auto">
+      <div className="mx-auto w-[90%] h-[85%] items-center justify-center mt-4  text-center md:ml-auto shadow-md rounded-lg" style={{ boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.1)" }}>
         <Swiper
           slidesPerView={slidesPerView}
           spaceBetween={1}

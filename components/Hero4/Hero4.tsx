@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Hero4() {
     return (
-        <div className="bg-custom-purple text-white flex flex-col items-center ml-64 rounded-xl justify-center h-80 w-2/3 gap-8 mb-20">
+        <div className="bg-custom-purple text-white flex flex-col items-center lg:ml-64 rounded-xl justify-center h-80 w-2/3 gap-8 mb-20">
             <div>
                 <h1 className="text-3xl font-medium">Let's get in touch</h1>
             </div>

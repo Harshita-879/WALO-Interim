@@ -69,21 +69,21 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-evenly my-5'>
-      <div className='m-6 lg:m-0 lg:w-2/5 xl:w-1/3 lg:order-2 '>
-        <span className='font-mplus font-bold text-4xl flex mb-2 '>
+    <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-evenly my-2 mt-20 lg:mt-0 mx-10 lg:mx-0'>
+      <div className='m-6 lg:m-0 lg:w-2/5 xl:w-1/3 lg:order-2 flex flex-col items-center justify-center'>
+        <span className='font-mplus font-bold lg:text-4xl flex lg:mb-2 text-2xl whitespace-nowrap mb-6'>
           Scale your
           <span>
-            <Box className='pt-1 lg:pt-0'>
-              <Ul className="font-mplus font-extrabold text-transparent text-3xl  lg:text-4xl bg-clip-text" style={{ backgroundImage: 'linear-gradient(to right, #5F6D9E, #5AD192)' }}>
+            <Box className='pt-0.5 lg:pt-0'>
+              <Ul className="font-mplus font-extrabold text-transparent text-2xl  lg:text-4xl bg-clip-text" style={{ backgroundImage: 'linear-gradient(to right, #5F6D9E, #5AD192)' }}>
                 <Li>Business</Li>
                 <Li>Working Capital</Li>
               </Ul>
             </Box>
           </span>
         </span>
-        <div className='h-auto mt-3 '>
-           <p className='font-mplus font-bold lg:font-normal mb-6 text-base lg:text-lg'>
+        <div className='h-auto mt-3 flex flex-col items-center justify-center'>
+           <p className='font-mplus font-bold lg:font-normal mb-6 text-sm lg:text-lg'>
       {isMobile ? (
         "WALO redefines the landscape, empowering you to invest directly in high-growth companies shaping the future."
       ) : (
@@ -91,13 +91,13 @@ const Hero = () => {
       )}
     </p>
         </div>
-        <div className='flex flex-col lg:flex-row items-center '>
+        <div className='flex flex-col lg:flex-row items-center w-full m-8 lg:m-0 whitespace-normal'>
           <button type="button" className="h-10 w-full lg:w-32  font-mplus bg-[#5AD192] py-2 px-4  rounded-lg lg:rounded-full text-white ">
             Get Started
           </button>
         </div>
       </div>
-      <div className=" lg:m-0  lg:order-1">
+      <div className=" lg:m-0  lg:order-1 w-9/12 lg:w-auto flex flex-col items-center justify-center">
         <Image className='mt-16 ' src={heroImg} alt="Hero-sec" width={420} height={380} />
       </div>
     </div>
