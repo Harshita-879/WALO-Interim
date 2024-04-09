@@ -1,32 +1,27 @@
-import Link from "next/link";
 import Image from "next/image";
 import waloLogo from "@/public/LandingPage/walo.svg"
-import instaIcon from "@/public/mobileNav/SocialMedia/insta2.svg"
-import fbIcon from "@/public/mobileNav/SocialMedia/facebook2.svg"
-import twIcon from "@/public/mobileNav/SocialMedia/twitter2.svg"
-import linkIcon from "@/public/mobileNav/SocialMedia/linkedIn2.svg"
 import WaloIcon from "@/public/LandingPage/icon.svg"
 const Footer = () => {
   return (
-    <div className="w-1440 h-276 pt-[21px] pb-[25px] bg-[#D8D0EE] py-4">
+    <div className="w-1440 h-276 sm:pt-[21px] sm:pb-[25px] bg-[#D8D0EE] lg:py-4">
       <div>
-        <div className="flex justify-between ">
-          <div className="flex pl-[5%] ">
+        <div className="flex justify-between items-center">
+          <div className="flex pl-[5%]">
             
-        <Image className="mr-[10%] hidden md:block"
+        <Image className="mr-[10%] md:block sm:max-w-10 max-w-6"
             src={WaloIcon}
           alt="footerIcon"
-          height={42}
-          width={40}
+          // height={42}
+          // width={40}
         />
-        <Image className=""
+        <Image className="sm:max-w-44 max-w-28"
           src={waloLogo}
           alt="footerIcon"
-          height={56}
-          width={158}
+          // height={56}
+          // width={158}
             />
         </div>
-          <p className="text-2xl font-bold leading-9 mr-16 hidden md:block" style={{ color: '#6251A3' }}>CAPITAL THAT SCALES WITH YOU</p>
+          <p className="ml-16 text-sm sm:text-2xl font-bold leading-9 mr-[5%] md:block" style={{ color: '#6251A3' }}>CAPITAL THAT SCALES WITH YOU</p>
         </div>
       </div>
     </div>

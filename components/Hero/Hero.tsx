@@ -71,7 +71,7 @@ const Hero = () => {
   return (
     <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-evenly my-2 mt-20 lg:mt-0 mx-10 lg:mx-0'>
       <div className='m-6 lg:m-0 lg:w-2/5 xl:w-1/3 lg:order-2 flex flex-col items-center justify-center'>
-        <span className='font-mplus font-bold lg:text-4xl flex lg:mb-2 text-2xl whitespace-nowrap mb-6'>
+        <span className='font-mplus font-bold sm:text-3xl lg:text-4xl flex lg:mb-2 text-2xl whitespace-nowrap mb-6'>
           Scale your
           <span>
             <Box className='pt-0.5 lg:pt-0'>
@@ -83,7 +83,7 @@ const Hero = () => {
           </span>
         </span>
         <div className='h-auto mt-3 flex flex-col items-center justify-center'>
-           <p className='font-mplus font-bold lg:font-normal mb-6 text-sm lg:text-lg'>
+           <p className='font-mplus font-bold lg:font-normal mb-6 text-sm md:text-lg'>
       {isMobile ? (
         "WALO redefines the landscape, empowering you to invest directly in high-growth companies shaping the future."
       ) : (

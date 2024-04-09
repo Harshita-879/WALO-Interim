@@ -39,7 +39,7 @@ export default function Cards() {
   }, []);
 
   return (
-    <div className="ht-600 lg:bg-[#6251A3] text-sm ">
+    <div className="ht-600 lg:bg-[#6251A3] text-sm mb-8">
       <p className="font-mplus text-[#6251A3] lg:text-white text-center font-semibold  text-3xl py-8">
         Why Choose WALO
       </p>
