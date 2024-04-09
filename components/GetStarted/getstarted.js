@@ -7,9 +7,9 @@ import getstarted_mobile from '../../assets/getstarted_mobile.svg';
 export default function GetStarted() {
     return(
         <>
-        <div className='flex flex-col items-center justify-center hidden lg:flex'>
+        <div className='flex flex-col items-center justify-center lg:flex'>
             <p className="font-mplus text-center font-semibold  text-3xl py-10">    
-                HOW TO GET STARTED
+                HOW TO GET STARTED?
             </p>
             <Image src={getstarted} alt="Get Started" />
         </div>

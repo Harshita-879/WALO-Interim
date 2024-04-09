@@ -41,12 +41,12 @@ export default function Cards() {
   return (
     <div className="ht-600 lg:bg-[#6251A3] text-sm mb-8">
       <p className="font-mplus text-[#6251A3] lg:text-white text-center font-semibold  text-3xl py-8">
-        Why Choose WALO
+        Why Choose WALO?
       </p>
-      <div className="mx-auto w-[90%] h-[85%] items-center justify-center mt-4  text-center md:ml-auto shadow-md rounded-lg" style={{ boxShadow: "5px 5px 15px rgba(0, 0, 0, 0.1)" }}>
+      <div className="mx-auto w-[90%] h-[85%] items-center justify-center mt-4  text-center md:ml-auto  rounded-lg">
         <Swiper
           slidesPerView={slidesPerView}
-          spaceBetween={1}
+          spaceBetween={16}
           pagination={{
             clickable: true,
           }}
@@ -54,55 +54,66 @@ export default function Cards() {
           modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
-          <SwiperSlide className="mb-20 ">
-            <div className="relative">
+          <SwiperSlide className="mb-10 flex justify-center">
+            <div className="relative w-full">
+              <div className="h-full flex items-center justify-center">
                   <Image
                     src={flexible}
                     alt="flexible"
-                    className="mx-auto"
+                    className="px---2 py-2"
                     height={286}
                     width={286}
                   />
                 </div>
+            </div>
           </SwiperSlide>
 
-          <SwiperSlide className="mb-20">
-            <div className="relative">               
+          <SwiperSlide className="mb-20 flex justify-center">
+            <div className="relative w-full">
+              <div className="h-full flex items-center justify-center">
                       <Image
                         src={founderfriendly}
                         alt="founderfriendly"
-                        className="mx-auto"
+                        className="px---2 py-0.5"
                         height={286}
                         width={286}
                       />
             </div>
-          </SwiperSlide>
-
-          <SwiperSlide className="mb-20 ">
-            <div className="relative">
-                  <Image
-                    src={fair}
-                    alt="fair"
-                    className="mx-auto"
-                    height={286}
-                    width={286}
-                  />
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="mb-20 ">
-            <div className="relative">
+          <SwiperSlide className="mb-20 flex justify-center">
+            <div className="relative w-full">
+              <div className="h-full flex items-center justify-center">
                   <Image
-                    src={frequent}
-                    alt="frequent"
-                    className="mx-auto"
+                    src={fair}
+                    alt="fair"
+                    className="px---2 py-0.5"
                     height={286}
                     width={286}
                   />
                 </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="mb-20 flex justify-center">
+            <div className="relative w-full">
+              <div className="h-full flex items-center justify-center">
+                  <Image
+                    src={frequent}
+                    alt="frequent"
+                    className="px---2 py-2 "
+                    height={286}
+                    width={286}
+                  />
+                </div>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>
+
     </div>
   );
 }
+
+
