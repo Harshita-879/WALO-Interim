@@ -8,7 +8,7 @@ export default function Hero4() {
                 <h1 className="mt-8 lg:mt-0 text-3xl font-medium">Let's get in touch</h1>
             </div>
             <div className='lg:hidden'>
-                <p className='flex items-center justify-center text-center mx-4'>
+                <p className='flex items-center justify-center text-center mx-4 text-lg'>
                 We'd love to help improve your experience with WALO
                 get in touch with us to know more about how to get started and for a more
                 personalised experience
