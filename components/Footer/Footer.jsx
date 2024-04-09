@@ -3,7 +3,7 @@ import waloLogo from "@/public/LandingPage/walo.svg"
 import WaloIcon from "@/public/LandingPage/icon.svg"
 const Footer = () => {
   return (
-    <div className="w-1440 h-276 sm:pt-[21px] sm:pb-[25px] bg-[#D8D0EE] lg:py-4">
+    <div className="w-1440 h-276 sm:pt-[21px] sm:pb-[25px] lg:bg-gradient-to-r from-[#D8D0EE] to-[#a796d4] lg:py-4">
       <div>
         <div className="flex justify-between items-center">
           <div className="flex pl-[5%]">
