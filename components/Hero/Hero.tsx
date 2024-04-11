@@ -97,7 +97,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className=" lg:m-0  lg:order-1 w-9/12 lg:w-auto flex flex-col items-center justify-center">
+      <div className="hidden lg:m-0  lg:order-1 w-9/12 lg:w-auto lg:flex flex-col items-center justify-center">
         <Image className='mt-16 ' src={heroImg} alt="Hero-sec" width={420} height={380} />
       </div>
     </div>
