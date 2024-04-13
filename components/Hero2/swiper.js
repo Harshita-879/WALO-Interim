@@ -40,9 +40,9 @@ export default function Cards() {
   }, []);
 
   return (
-    <div className="ht-600 lg:bg-[#6251A3] flex flex-col justify-center items-center text-sm mb-8">
-      <p className="lg:hidden font-mplus text-[#6251A3] lg:text-white text-center font-semibold  text-3xl py-8">
-        Why Choose WALO
+    <div className="ht-600 lg:bg-[#6251A3] flex flex-col justify-center items-center text-sm lg:mb-8">
+      <p className="lg:hidden font-mplus text-[#6251A3] lg:text-white text-center font-extrabold text-3xl py-8">
+        WHY CHOOSE WALO
       </p>
       <Image src={whychoosewalo} alt="whychoosewalo" className="hidden lg:inline"/>
       <div className="lg:hidden mx-auto w-[90%] h-[85%] items-center justify-center mt-4  text-center md:ml-auto  rounded-lg" style={{
