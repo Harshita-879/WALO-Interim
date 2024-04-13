@@ -71,7 +71,7 @@ const Navbar = () => {
           <li className="py-4 px-4 flex mt-1">
             <Image className='' src={Funds} alt="Walo" width={20} height={20} />
             <Link className='font-mplus pl-4' href="/about">Get Funded</Link>
-            <span className="absolute left-6 right-6 h-0.5 bg-black mx-auto mt-10"></span>
+            <span className="absolute left-5 right-5 h-px bg-zinc-800 opacity-60 mx-auto mt-10"></span>
           </li>
           <li className="py-4 px-4 flex mt-1">
               <Image className='' src={Contact} alt="Walo" width={20} height={20} />
