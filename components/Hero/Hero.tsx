@@ -1,9 +1,10 @@
 "use client"
 import Image from 'next/image';
 import { useState,useEffect } from 'react';
-import heroImg from '@/public/LandingPage/hero.gif';
 import heroimg from '@/public/LandingPage/heroimg.svg';
 import playImg from '@/public/LandingPage/play.svg';
+import heroImg from '@/public/LandingPage/heroimg.svg';
+import video from '@/public/LandingPage/video.svg';
 
 import styled, { keyframes } from 'styled-components';
 import Link from 'next/link';
@@ -100,6 +101,10 @@ const Hero = () => {
           <button type="button" className="h-10 w-full lg:w-32  font-mplus bg-[#5AD192] py-2 px-4  rounded-lg lg:rounded-full text-white font-bold mt-6">
             Get Started
           </button>
+          <div className='flex items-center justify-center mt-4 lg:mt-0 lg:ml-4'>
+            <Image src={playImg} alt="play" width={50} height={50} />
+            <span className='font-mplus font-bold text-lg ml-2'>How WALO works</span>
+          </div>
         </div>
       </div>
       <div className="hidden lg:m-0  lg:order-2 w-10/12 lg:w-auto lg:flex flex-col items-center justify-center">
