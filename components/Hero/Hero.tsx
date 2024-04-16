@@ -3,8 +3,6 @@ import Image from 'next/image';
 import { useState,useEffect } from 'react';
 import heroimg from '@/public/LandingPage/heroimg.svg';
 import playImg from '@/public/LandingPage/play.svg';
-import heroImg from '@/public/LandingPage/heroimg.svg';
-import video from '@/public/LandingPage/video.svg';
 
 import styled, { keyframes } from 'styled-components';
 import Link from 'next/link';
@@ -71,7 +69,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around my-2 mt-20 lg:mt-0 mx-10 lg:mx-0'>
+    <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around my-2 mt-20 lg:mt-0 mx-10 lg:mx-0 pt-5'>
       <div className='m-6 lg:m-0 lg:w-3/5 xl:w-1/2 lg:order-1 flex flex-col '>
         <span className='font-mplus font-bold sm:text-3xl lg:text-5xl flex lg:mb-2 text-2xl whitespace-nowrap lg:pt-8 lg:mt-8'>
           Grow with
@@ -85,7 +83,7 @@ const Hero = () => {
           </span>
           <br />
         </span>
-        <span className='font-mplus font-bold sm:text-3xl lg:text-5xl flex lg:mb-2 text-2xl whitespace-nowrap lg:mb-6 pb-8'>
+        <span className='font-mplus font-bold sm:text-3xl lg:text-5xl flex text-2xl whitespace-nowrap lg:mb-2 pb-8'>
           Your Gateway to Success.
         </span>
         <div className='h-auto flex flex-col items-center justify-center lg:justify-start'>
@@ -95,12 +93,17 @@ const Hero = () => {
       ) : (
         "Financing redefined. Unlike loans or equity, we fund based on future revenue, preserving ownership without excessive debt. Enjoy full ownership and flexible repayments linked to revenue, ensuring manageable payments. Unlock your business's potential with WALO."
       )}
-    </p>
+    </p>  
         </div>
         <div className='flex flex-col lg:flex-row items-center w-full mt-8 lg:m-0 whitespace-normal'>
-          <button type="button" className="h-10 w-full lg:w-32  font-mplus bg-[#5AD192] py-2 px-4  rounded-lg lg:rounded-full text-white font-bold mt-6">
+            <button 
+            type="button" 
+            className="h-10 w-full lg:w-32 font-mplus bg-[#5AD192] py-2 px-4 rounded-lg lg:rounded-full text-white font-bold mt-6"
+            onClick={() => { window.location.href = 'https://forms.gle/nw8pX7A7mHnZ6u177'; }}
+          >
             Get Started
           </button>
+
           <div className='flex items-center justify-center mt-8 lg:mt-0 lg:ml-8'>
             <Image className='mt-6' src={playImg} alt="play" width={50} height={50} />
             <span className='font-mplus font-bold text-lg ml-2 mt-6'>How WALO works</span>

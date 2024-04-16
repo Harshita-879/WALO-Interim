@@ -59,8 +59,8 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-20 pl-20 ">
-            <Link className='font-mplus' href="/">Get Funded</Link>
-            <Link className='font-mplus ' href="/about">Contact Us</Link>
+            <Link className='font-mplus' href="https://forms.gle/nw8pX7A7mHnZ6u177">Get Funded</Link>
+            <Link className='font-mplus ' href="https://forms.gle/nw8pX7A7mHnZ6u177">Contact Us</Link>
           </div>
         </div>
         </div>
