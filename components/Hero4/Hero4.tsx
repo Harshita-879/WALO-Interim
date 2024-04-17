@@ -18,14 +18,10 @@ export default function Hero4() {
       </div>
       <div className="w-2/3 hidden lg:inline">
         <p className="flex items-center justify-center">
-          We'd love to help improve your experience with WALO
+        We are here to support your business ambitions.
         </p>
         <p className="flex items-center justify-center">
-          Get in touch with us to know more about how to get started and we'd
-          love
-        </p>
-        <p className="flex items-center justify-center">
-          to help your business grow.
+        Reach out to us today to learn more about how WALO can help your venture thrive.
         </p>
       </div>
       <div>

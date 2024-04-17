@@ -14,7 +14,7 @@ const Footer = () => {
           // width={400}
         />
         </div>
-          <p className="ml-16 text-sm sm:text-2xl font-bold leading-9 mr-[5%] md:block" style={{ color: '#6251A3' }}>CAPITAL THAT SCALES WITH YOU</p>
+          <p className="ml-16 text-sm sm:text-2xl font-bold leading-9 mr-[5%] md:block" style={{ color: '#6251A3' }}>Driving Growth, One Business at a Time.</p>
         </div>
       </div>
     </div>

@@ -1,15 +1,18 @@
-"use client"
-// import WALOvideo from '@/assets/WALOvideo.mp4'
+import React from "react";
 
 const Video = () => {
     return (
-        <div>
-            {/* <video width="320" height="240" controls>
-                <source src={WALOvideo} type="video/mp4" />
-            </video> */}
-            <h1>video would go here</h1>
+        <div className="flex justify-center items-center" id="video">
+            <iframe 
+                width="800" 
+                height="500" 
+                src="https://www.youtube.com/embed/Qgky93OHgnE" 
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+            ></iframe>
         </div>
-    )
+    );
 }
 
-export default Video
+export default Video;

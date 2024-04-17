@@ -91,7 +91,7 @@ const Hero = () => {
       {isMobile ? (
         "WALO redefines the landscape, empowering you to invest directly in high-growth companies shaping the future."
       ) : (
-        "Financing redefined. Unlike loans or equity, we fund based on future revenue, preserving ownership without excessive debt. Enjoy full ownership and flexible repayments linked to revenue, ensuring manageable payments. Unlock your business's potential with WALO."
+        "Unlike traditional loans or equity investments, WALO provides funding based on a fraction of your future revenue. This means you retain full ownership of your business while gaining access to the capital necessary to scale. Plus, repayments are directly linked to your revenue, ensuring they remain manageable, even during slower periods."
       )}
     </p>  
         </div>
@@ -105,7 +105,9 @@ const Hero = () => {
           </button>
 
           <div className='flex items-center justify-center mt-8 lg:mt-0 lg:ml-8'>
+          <a href="#video">
             <Image className='mt-6' src={playImg} alt="play" width={50} height={50} />
+          </a>  
             <span className='font-mplus font-bold text-lg ml-2 mt-6'>How WALO works</span>
           </div>
         </div>
