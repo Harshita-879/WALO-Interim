@@ -69,6 +69,7 @@ const Hero = () => {
   }, []);
 
   return (
+    <div className='bg-[#6251A3] text-white md:bg-white md:text-black'>
     <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around my-2 mt-20 lg:mt-0 mx-10 lg:mx-0 pt-5'>
       <div className='m-6 lg:m-0 lg:w-3/5 xl:w-1/2 lg:order-1 flex flex-col '>
         <span className='font-mplus font-bold sm:text-3xl lg:text-5xl flex lg:mb-2 text-2xl whitespace-nowrap lg:pt-8 lg:mt-8'>
@@ -89,7 +90,7 @@ const Hero = () => {
         <div className='h-auto flex flex-col items-center justify-center lg:justify-start'>
            <p className='items-center justify-center font-mplus font-bold lg:font-bold lg:mb-6 text-sm md:text-xl'>
       {isMobile ? (
-        "WALO redefines the landscape, empowering you to invest directly in high-growth companies shaping the future."
+        "Unlike traditional loans or equity investments, WALO provides funding based on a fraction of your future revenue. This means you retain full ownership of your business while gaining access to the capital necessary to scale."
       ) : (
         "Unlike traditional loans or equity investments, WALO provides funding based on a fraction of your future revenue. This means you retain full ownership of your business while gaining access to the capital necessary to scale. Plus, repayments are directly linked to your revenue, ensuring they remain manageable, even during slower periods."
       )}
@@ -115,6 +116,7 @@ const Hero = () => {
       <div className="hidden lg:m-0  lg:order-2 w-10/12 lg:w-auto lg:flex flex-col items-center justify-center">
         <Image className='mt-20 ' src={heroimg} alt="Hero-sec" width={420} height={320} />
       </div>
+    </div>
     </div>
   );
 };
