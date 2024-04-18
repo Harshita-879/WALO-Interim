@@ -20,6 +20,14 @@ import whychoosewalo from "@/assets/whychoosewalo.svg";
 import { Pagination, Autoplay } from "swiper/modules";
 import { useState, useEffect } from "react";
 
+import {Quicksand} from 'next/font/google';
+
+const quicksand = Quicksand ({
+  subsets: ['latin'],
+  weight: ['400','500','700']
+})
+
+
 
 export default function Cards() {
   const [slidesPerView, setSlidesPerView] = useState(4);
@@ -40,6 +48,7 @@ export default function Cards() {
   }, []);
 
   return (
+    <main className={quicksand.className}>
     <div className="ht-600 lg:bg-[#6251A3] flex flex-col justify-center items-center text-sm lg:mb-8">
       <p className="lg:hidden font-mplus text-[#6251A3] lg:text-white text-center font-extrabold text-3xl py-8">
         WHY CHOOSE WALO
@@ -121,6 +130,7 @@ export default function Cards() {
       </div>
 
     </div>
+    </main>
   );
 }
 

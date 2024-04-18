@@ -1,11 +1,18 @@
 "use client";
 import Image from "next/image";
+import {Quicksand} from 'next/font/google';
+
+const quicksand = Quicksand ({
+  subsets: ['latin'],
+  weight: ['400','500']
+})
 
 export default function Hero4() {
   return (
-    <div className="bg-custom-purple text-white flex flex-col items-center lg:ml-64 rounded-xl justify-center h-80 lg:w-2/3 md:gap-8 gap-5 mb-8 sm:my-8 mx-4 lg:mx-0">
+    <main className={quicksand.className}>
+    <div className="bg-custom-purple text-white flex flex-col items-center lg:ml-64 rounded-xl justify-center h-80 lg:w-2/3 md:gap-10 gap-5 mb-8 sm:my-8 mx-4 lg:mx-0">
       <div>
-        <h1 className="mt-8 lg:mt-0 text-3xl font-medium">
+        <h1 className="mt-6 lg:mt-0 text-3xl font-medium">
           Let's get in touch
         </h1>
       </div>
@@ -35,5 +42,6 @@ export default function Hero4() {
         </button>
       </div>
     </div>
+    </main>
   );
 }

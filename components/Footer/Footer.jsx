@@ -1,7 +1,15 @@
 import Image from "next/image";
 import waloFooter from '@/assets/walofooter.svg';
+import {Quicksand} from 'next/font/google';
+
+const quicksand = Quicksand ({
+  subsets: ['latin'],
+  weight: ['400','500']
+})
+
 const Footer = () => {
   return (
+    <main className={quicksand.className}>
     <div className="w-1440 bg-gradient-to-r from-[#D8D0EE] to-[#a796d4] sm:pb-4">
       <div className="sm:pt-4 mt-12">
         <div className="flex justify-between items-center">
@@ -18,6 +26,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    </main>
   )
 };
 

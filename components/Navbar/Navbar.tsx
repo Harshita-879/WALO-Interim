@@ -8,6 +8,12 @@ import Bars from '@/public/mobileNav/bars.svg';
 import Cross from '@/public/mobileNav/cross.svg';
 import Funds from '@/public/mobileNav/funds.svg'
 import Contact from '@/public/mobileNav/contact.svg';
+import { Quicksand } from 'next/font/google';
+
+const quicksand = Quicksand ({
+  subsets: ['latin'],
+  weight: ['400','500']
+})
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,7 +36,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`h-16 bg-white fixed top-0 z-10 w-full font-mplus flex items-center justify-between ${isScrolled ? 'shadow-lg' : ''}`} style={{ borderBottom: '1px solid #D1D5DB' }}>
+    <main className={quicksand.className}>
+    <nav className={`h-16 bg-white fixed top-0 z-10 w-full flex items-center justify-between ${isScrolled ? 'shadow-lg' : ''}`} style={{ borderBottom: '1px solid #D1D5DB' }}>
       <div className="container mx-auto mr-[5%]">
         <div className="flex flex-row items-center justify-between ml-10 font-extrabold text-xl">
         <div className='sm:flex sm:flex-row'>
@@ -59,8 +66,8 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-20 pl-20 ">
-            <Link className='font-mplus' href="https://forms.gle/nw8pX7A7mHnZ6u177">Get Funded</Link>
-            <Link className='font-mplus ' href="https://forms.gle/nw8pX7A7mHnZ6u177">Contact Us</Link>
+            <Link href="https://forms.gle/nw8pX7A7mHnZ6u177">Get Funded</Link>
+            <Link href="https://forms.gle/nw8pX7A7mHnZ6u177">Contact Us</Link>
           </div>
         </div>
         </div>
@@ -70,17 +77,17 @@ const Navbar = () => {
         <ul className="flex-col flex-wrap block ">
           <li className="py-4 px-4 flex mt-1">
             <Image className='' src={Funds} alt="Walo" width={20} height={20} />
-            <Link className='font-mplus pl-4' href="/about">Get Funded</Link>
+            <Link className=' pl-4' href="/about">Get Funded</Link>
             <span className="absolute left-5 right-5 h-px bg-zinc-800 opacity-60 mx-auto mt-10"></span>
           </li>
           <li className="py-4 px-4 flex mt-1">
               <Image className='' src={Contact} alt="Walo" width={20} height={20} />
-              <Link className='font-mplus pl-4' href="/about">Contact Us</Link>
+              <Link className=' pl-4' href="/about">Contact Us</Link>
           </li>
         </ul>
       </div>
-
     </nav>
+    </main>
   );
 };
 

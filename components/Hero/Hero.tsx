@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useState,useEffect } from 'react';
 import heroimg from '@/public/LandingPage/heroimg.svg';
 import playImg from '@/public/LandingPage/play.svg';
-
+import {Quicksand} from 'next/font/google';
 import styled, { keyframes } from 'styled-components';
 import Link from 'next/link';
 
@@ -54,6 +54,11 @@ const Li = styled.li`
   margin-bottom: 10px;
 `;
 
+const quicksand = Quicksand ({
+  subsets: ['latin'],
+  weight: ['400','500']
+})
+
 const Hero = () => {
    const [isMobile, setIsMobile] = useState(false);
 
@@ -69,6 +74,7 @@ const Hero = () => {
   }, []);
 
   return (
+    <main className={quicksand.className}>
     <div className='bg-[#6251A3] text-white md:bg-white md:text-black'>
     <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around my-2 mt-20 lg:mt-0 mx-10 lg:mx-0 pt-5'>
       <div className='m-6 lg:m-0 lg:w-3/5 xl:w-1/2 lg:order-1 flex flex-col '>
@@ -118,6 +124,7 @@ const Hero = () => {
       </div>
     </div>
     </div>
+    </main>
   );
 };
 
