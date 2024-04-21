@@ -108,7 +108,7 @@ const Hero = () => {
       )}
     </p>  
         </div>
-        <div className='flex flex-col lg:flex-row items-center w-full lg:mt-8 lg:m-0 whitespace-normal'>
+        <div className='flex flex-col lg:flex-row items-center w-full lg:mt-8 lg:m-0 whitespace-normal lg:pb-10'>
           <a href='https://forms.gle/nw8pX7A7mHnZ6u177' target='_blank' className='w-full lg:w-auto'>
             <button 
             type="button" 
