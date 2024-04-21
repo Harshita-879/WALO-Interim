@@ -15,6 +15,7 @@ const config: Config = {
         'custom-purple': '#6251A3',
         'custom-green': '#5AD192'
       },
+      
     },
   },
   plugins: [],

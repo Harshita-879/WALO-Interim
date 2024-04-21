@@ -27,6 +27,15 @@ export default function Hero4() {
         thrive.
         </p>
       </div>
+      
+      <div className="w-/3 lg:hidden">
+        <p className="flex items-center justify-center text-center">
+        We are here to support your business ambitions.
+        </p>
+        <p className="flex items-center justify-center text-center">
+        Reach out to us today to learn more about how WALO can help your venture thrive.
+        </p>
+      </div>
       <div>
       <a href="https://forms.gle/nw8pX7A7mHnZ6u177" target="_blank">
         <button
