@@ -10,7 +10,7 @@ const quicksand = Quicksand ({
 const Footer = () => {
  return (
     <main className={quicksand.className}>
-      <div className="w-1440 bg-gradient-to-r from-[#D8D0EE] to-[#a796d4] sm:pb-1">
+      <div className="w-1440 bg-gradient-to-r from-[#D8D0EE] to-[#D8D0EE] sm:pb-1">
         <div className="sm:pt-2 mt-12">
           <div className="flex justify-between items-center">
             <div className="flex pl-[5%]">
