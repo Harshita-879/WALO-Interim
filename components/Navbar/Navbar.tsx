@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="flex flex-row items-center justify-between ml-[0.7%] lg:ml-[5%] font-extrabold text-xl">
         <div className='sm:flex sm:flex-row'>
           <div className='flex'>
-            <Image className='mx-4' src={waloIcon} alt="Walo" width={30} height={30} />
+            <Image className='mx-4' src={waloIcon} alt="Walo" width={35} height={30} />
             <Image className='' src={waloLogo} alt="Walo" width={144} height={45} />
           </div>
            {/* Mobile Menu Icon */}
