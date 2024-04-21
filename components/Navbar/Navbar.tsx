@@ -66,8 +66,8 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-20 pl-20 ">
-            <Link href="https://forms.gle/nw8pX7A7mHnZ6u177">Get Funded</Link>
-            <Link href="https://forms.gle/nw8pX7A7mHnZ6u177">Contact Us</Link>
+            <a href="https://forms.gle/nw8pX7A7mHnZ6u177" target='_blank'>Get Funded</a>
+            <a href="https://forms.gle/nw8pX7A7mHnZ6u177" target='_blank'>Contact Us</a>
           </div>
         </div>
         </div>
@@ -77,12 +77,12 @@ const Navbar = () => {
         <ul className="flex-col flex-wrap block ">
           <li className="py-4 px-4 flex mt-1">
             <Image className='' src={Funds} alt="Walo" width={20} height={20} />
-            <Link className=' pl-4' href="/about">Get Funded</Link>
+            <a className=' pl-4' href="https://forms.gle/nw8pX7A7mHnZ6u177" target='_blank'>Get Funded</a>
             <span className="absolute left-5 right-5 h-px bg-zinc-800 opacity-60 mx-auto mt-10"></span>
           </li>
           <li className="py-4 px-4 flex mt-1">
               <Image className='' src={Contact} alt="Walo" width={20} height={20} />
-              <Link className=' pl-4' href="/about">Contact Us</Link>
+              <a className=' pl-4' href="https://forms.gle/nw8pX7A7mHnZ6u177" target='_blank'>Contact Us</a>
           </li>
         </ul>
       </div>

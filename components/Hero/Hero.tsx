@@ -109,14 +109,14 @@ const Hero = () => {
     </p>  
         </div>
         <div className='flex flex-col lg:flex-row items-center w-full mt-8 lg:m-0 whitespace-normal'>
+          <a href='https://forms.gle/nw8pX7A7mHnZ6u177' target='_blank' className='w-full lg:w-auto'>
             <button 
             type="button" 
             className="h-10 w-full lg:w-32 font-mplus bg-[#5AD192] py-2 px-4 rounded-lg lg:rounded-full text-white font-bold mt-6"
-            onClick={() => { window.location.href = 'https://forms.gle/nw8pX7A7mHnZ6u177'; }}
           >
             Get Started
           </button>
-
+          </a>
           <div className='flex items-center justify-center mt-8 lg:mt-0 lg:ml-8'>
           <a href="#video">
             <Image className='mt-6' src={playImg} alt="play" width={50} height={50} />
