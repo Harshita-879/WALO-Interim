@@ -108,7 +108,7 @@ const Hero = () => {
       )}
     </p>  
         </div>
-        <div className='flex flex-col lg:flex-row items-center w-full mt-8 lg:m-0 whitespace-normal'>
+        <div className='flex flex-col lg:flex-row items-center w-full lg:mt-8 lg:m-0 whitespace-normal'>
           <a href='https://forms.gle/nw8pX7A7mHnZ6u177' target='_blank' className='w-full lg:w-auto'>
             <button 
             type="button" 
@@ -119,9 +119,9 @@ const Hero = () => {
           </a>
           <div className='flex items-center justify-center mt-8 lg:mt-0 lg:ml-8'>
           <a href="#video">
-            <Image className='mt-6' src={playImg} alt="play" width={50} height={50} />
+            <Image className='lg:mt-6' src={playImg} alt="play" width={50} height={50} />
           </a>  
-            <span className='font-mplus font-bold text-lg ml-2 mt-6'>How WALO works</span>
+            <span className='font-mplus font-bold text-lg ml-2 lg:mt-6'>How WALO works</span>
           </div>
         </div>
       </div>
