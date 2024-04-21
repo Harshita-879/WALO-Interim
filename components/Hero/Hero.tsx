@@ -37,7 +37,7 @@ const Box = styled.div`
   margin: auto;
   overflow: hidden;
   position: relative;
-  clip-path: polygon(0 14%, 100% 10%, 100% 100%, 0 100%);
+  clip-path: polygon(0 14%, 100% 10%, 100% 100%, 1 100%);
 `;
 
 const Ul = styled.ul`
@@ -75,14 +75,20 @@ const Hero = () => {
 
   return (
     <main className={quicksand.className}>
-    <div className='bg-[#6251A3] text-white md:bg-white md:text-black'>
+    <div className='bg-[#6251A3] text-white lg:bg-white lg:text-black'>
     <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around my-2 mt-20 lg:mt-0 mx-10 lg:mx-0 pt-5'>
       <div className='m-6 lg:m-0 lg:w-3/5 xl:w-1/2 lg:order-1 flex flex-col '>
-        <span className='font-mplus font-bold sm:text-3xl lg:text-5xl flex lg:mb-2 text-2xl whitespace-nowrap lg:pt-8 lg:mt-8'>
+        <span className=' font-bold sm:text-3xl lg:text-5xl flex lg:mb-2 text-2xl whitespace-nowrap lg:pt-8 lg:mt-8'>
           Grow with
           <span>
-            <Box className='lg:pt-0'>
-              <Ul className="font-mplus font-extrabold text-transparent text-2xl sm:text-3xl  lg:text-5xl bg-clip-text" style={{ backgroundImage: 'linear-gradient(to right, #5F6D9E, #5AD192)' }}>
+            <Box className='hidden lg:block'>
+              <Ul className=" font-extrabold text-transparent text-2xl sm:text-3xl  lg:text-5xl bg-clip-text" style={{ backgroundImage: 'linear-gradient(to right, #5F6D9E, #5AD192)' }}>
+                <Li>Confidence</Li>
+                <Li>WALO</Li>
+              </Ul>
+            </Box>
+            <Box className='lg:hidden'>
+              <Ul className=" font-extrabold text-2xl sm:text-3xl  lg:text-5xl bg-clip-text text-[#5AD192]">
                 <Li>Confidence</Li>
                 <Li>WALO</Li>
               </Ul>
