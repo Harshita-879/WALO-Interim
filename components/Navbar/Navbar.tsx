@@ -39,7 +39,7 @@ const Navbar = () => {
     <main className={quicksand.className}>
     <nav className={`h-16 bg-white fixed top-0 z-10 w-full flex items-center justify-between ${isScrolled ? 'shadow-lg' : ''}`} style={{ borderBottom: '1px solid #D1D5DB' }}>
       <div className="container mx-auto mr-[5%]">
-        <div className="flex flex-row items-center justify-between ml-10 font-extrabold text-xl">
+        <div className="flex flex-row items-center justify-between ml-[4%] font-extrabold text-xl">
         <div className='sm:flex sm:flex-row'>
           <div className='flex'>
             <Image className='mx-4' src={waloIcon} alt="Walo" width={30} height={30} />
