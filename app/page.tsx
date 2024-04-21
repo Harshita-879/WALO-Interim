@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Hero from "@/components/Hero/Hero";
 import Hero2 from "@/components/Hero2/swiper.js";
 import Footer from "@/components/Footer/Footer";
-import GetStarted from "@/components/GetStarted/GetStarted";
+import GetStarted from "@/components/GetStarted/getstarted.js";
 import Hero4 from "@/components/Hero4/Hero4";
 import Video from "@/components/video/video";
 
