@@ -77,7 +77,7 @@ const Hero = () => {
     <main className={quicksand.className}>
     <div className='bg-[#6251A3] text-white lg:bg-white lg:text-black'>
     <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around my-2 mt-20 lg:mt-0 mx-10 lg:mx-0 pt-5'>
-      <div className='m-6 lg:m-0 lg:w-3/5 xl:w-1/2 lg:order-1 flex flex-col '>
+      <div className='mb-4 lg:mb-0 lg:m-0 lg:w-3/5 xl:w-1/2 lg:order-1 flex flex-col '>
         <span className=' font-bold sm:text-3xl lg:text-5xl flex lg:mb-2 text-2xl whitespace-nowrap lg:pt-8 lg:mt-8'>
           Grow with
           <span>
@@ -112,16 +112,16 @@ const Hero = () => {
           <a href='https://forms.gle/nw8pX7A7mHnZ6u177' target='_blank' className='w-full lg:w-auto'>
             <button 
             type="button" 
-            className="h-10 w-full lg:w-32 font-mplus bg-[#5AD192] py-2 px-4 rounded-lg lg:rounded-full text-white font-bold mt-6"
+            className="h-10 w-full lg:w-32 bg-[#5AD192] py-2 px-4 rounded-lg lg:rounded-full text-white font-bold mt-6"
           >
             Get Started
           </button>
           </a>
-          <div className='flex items-center justify-center mt-8 lg:mt-0 lg:ml-8'>
+          <div className='flex items-center mt-8 lg:mt-0 lg:ml-8'>
           <a href="#video">
             <Image className='lg:mt-6' src={playImg} alt="play" width={50} height={50} />
           </a>  
-            <span className='font-mplus font-bold text-lg ml-2 lg:mt-6'>How WALO works</span>
+            <span className='font-bold text-lg ml-2 lg:mt-6'>How WALO works</span>
           </div>
         </div>
       </div>
